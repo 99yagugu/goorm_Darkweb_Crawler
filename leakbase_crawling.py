@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime
 
-token = 'xoxb-6806119368371-6852031366144-rjneIFPgM9wVEz0eiRrtaEBF'
-channel = 'C06PQ6UG4Q2'
+token = 'token'
+channel = 'channel'
 file_path = 'leakbase_clean.json'
 leakbase_url = 'https://leakbase.io/'
 
