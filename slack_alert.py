@@ -2,13 +2,13 @@ from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
 # Slack Bot Token 설정
-slack_token = "xoxb-6806119368371-6852031366144-rjneIFPgM9wVEz0eiRrtaEBF"
+slack_token = "slack_token"
 
 # Slack WebClient 초기화
 client = WebClient(token=slack_token)
 
 # 메시지를 보낼 채널 ID 설정
-channel_id = "C06PQ6UG4Q2"
+channel_id = "channel_id"
 
 # 보낼 메시지 내용 설정
 message = "안녕하세요! 슬랙 알림봇입니다."
